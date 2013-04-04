@@ -1,0 +1,38 @@
+NAME
+    Pod::Weaver::PluginBundle::SHARYANTO - SHARYANTO's default Pod::Weaver
+    config
+
+VERSION
+    version 0.01
+
+SYNOPSIS
+    In "weaver.ini":
+
+     [@SHARYANTO]
+
+    or in "dist.ini":
+
+     [PodWeaver]
+     config_plugin = @SHARYANTO
+
+DESCRIPTION
+    Equivalent to:
+
+     [@Default]
+     [-EnsureUniqueSections]
+     [-Perinci]
+
+SEE ALSO
+    Pod::Weaver
+
+    Dist::Zilla::PluginBundle::SHARYANTO
+
+AUTHOR
+    Steven Haryanto <stevenharyanto@gmail.com>
+
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2013 by Steven Haryanto.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
+
