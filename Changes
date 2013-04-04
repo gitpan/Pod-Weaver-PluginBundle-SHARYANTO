@@ -1,5 +1,11 @@
 Revision history for Pod-Weaver-PluginBundle-SHARYANTO
 
+0.02    2013-04-04 (SHARYANTO)
+
+        No functional changes. Mark with /PW so that the log message source is
+        clear when doing e.g. 'dzil build -v'.
+
+
 0.01    2013-04-04 (SHARYANTO)
 
         First release.

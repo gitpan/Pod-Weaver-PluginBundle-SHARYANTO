@@ -21,4 +21,4 @@ requires:
 resources:
   homepage: http://metacpan.org/release/Pod-Weaver-PluginBundle-SHARYANTO
   repository: http://github.com/sharyanto/perl-Pod-Weaver-PluginBundle-SHARYANTO
-version: 0.01
+version: 0.02

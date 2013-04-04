@@ -4,15 +4,15 @@ use 5.010001;
 
 use Pod::Weaver::Config::Assembler;
 
-our $VERSION = '0.01'; # VERSION
+our $VERSION = '0.02'; # VERSION
 
 sub _exp { Pod::Weaver::Config::Assembler->expand_package($_[0]) }
 
 sub mvp_bundle_config {
     return (
-        [ '@SHARYANTO',                       _exp('@Default'),              {} ],
-        [ '@SHARYANTO/EnsureUniqueSections',  _exp('-EnsureUniqueSections'), {} ],
-        [ '@SHARYANTO/Perinci',               _exp('-Perinci'),              {} ],
+        [ '@SHARYANTO',                          _exp('@Default'),              {} ],
+        [ '@SHARYANTO/PW/EnsureUniqueSections',  _exp('-EnsureUniqueSections'), {} ],
+        [ '@SHARYANTO/PW/Perinci',               _exp('-Perinci'),              {} ],
     );
 }
 
@@ -29,7 +29,7 @@ Pod::Weaver::PluginBundle::SHARYANTO - SHARYANTO's default Pod::Weaver config
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 
