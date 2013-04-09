@@ -35,6 +35,7 @@
       "runtime" : {
          "requires" : {
             "Pod::Weaver::Config::Assembler" : "0",
+            "Pod::Weaver::Plugin::Encoding" : "0",
             "Pod::Weaver::Plugin::EnsureUniqueSections" : "0",
             "Pod::Weaver::Plugin::Perinci" : "0",
             "perl" : "5.010001"
@@ -48,6 +49,6 @@
          "url" : "http://github.com/sharyanto/perl-Pod-Weaver-PluginBundle-SHARYANTO"
       }
    },
-   "version" : "0.02"
+   "version" : "0.03"
 }
 

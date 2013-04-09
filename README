@@ -3,7 +3,7 @@ NAME
     config
 
 VERSION
-    version 0.02
+    version 0.03
 
 SYNOPSIS
     In "weaver.ini":
@@ -21,6 +21,7 @@ DESCRIPTION
      [@Default]
      [-EnsureUniqueSections]
      [-Perinci]
+     [-Encoding]
 
 SEE ALSO
     Pod::Weaver
